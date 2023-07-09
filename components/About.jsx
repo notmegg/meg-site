@@ -2,8 +2,8 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" text-center font-light bg-gradient-to-br from-orange1 to-orange3
-           leading-9 text-transparent bg-clip-text px-56 text-xl"
+      className=" flex w-full text-center font-light bg-gradient-to-br from-orange1 to-orange3
+           leading-9 text-transparent bg-clip-text px-48 text-xl py-10"
     >
       <h2>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis

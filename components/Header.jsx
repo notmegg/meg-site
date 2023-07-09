@@ -1,17 +1,17 @@
 import { MdOutlineEmail } from "react-icons/md";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import Image from "next/image";
-import meg_pic from "../public/images/meg.jpg";
+import meg_pic from "../public/images/meg_pic.jpg";
 
 const Header = () => {
   return (
     <div id="header" className="flex w-full h-screen">
-      <div className=" w-1/2 text-left pl-20 mt-16 text-white">
+      <div className=" w-1/2 text-left pl-28 mt-16 text-white">
         <h3 className=" text-2xl py-2">Hi,</h3>
         <h1 className=" bg-gradient-to-r from-orange1 to-orange3 text-6xl py-2 font-extrabold text-transparent bg-clip-text">
           I'm Meghana
         </h1>
-        <h3 className=" text-3xl py-2">Blah blah</h3>
+        <h3 className=" text-3xl py-2 text-orange3">Blah blah</h3>
         <p className=" text-lg leading-8 text-gray-300 mt-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           ipsa, qui nostrum id provident recusandae quisquam? Aliquid
@@ -24,14 +24,18 @@ const Header = () => {
            rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300"
           >
             <MdOutlineEmail />
-          </span >
-          <span className=" w-12 h-9
-           rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300">
-            <AiFillLinkedin />
           </span>
-          <span className=" w-12 h-9
-           rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300">
-            <AiFillGithub />
+          <span
+            className=" w-12 h-9
+           rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300"
+          >
+            <AiOutlineLinkedin />
+          </span>
+          <span
+            className=" w-12 h-9
+           rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300"
+          >
+            <AiOutlineGithub />
           </span>
         </div>
       </div>
