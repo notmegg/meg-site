@@ -5,7 +5,7 @@ import meg_pic from "../public/images/meg_pic.jpg";
 
 const Header = () => {
   return (
-    <div id="header" className="flex w-full h-screen">
+    <div id="header" className="flex w-full h-full">
       <div className=" w-1/2 text-left pl-28 mt-16 text-white">
         <h3 className=" text-2xl py-2">Hi,</h3>
         <h1 className=" bg-gradient-to-r from-orange1 to-orange3 text-6xl py-2 font-extrabold text-transparent bg-clip-text">
