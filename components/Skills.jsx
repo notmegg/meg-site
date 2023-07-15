@@ -1,16 +1,11 @@
-import {
-  TbBrandPython,
-  TbBrandHtml5,
-  TbBrandCss3,
-  TbBrandNextjs,
-} from "react-icons/tb";
-import { BiLogoJava, BiLogoTailwindCss } from "react-icons/bi";
+import { TbBrandPython, TbBrandHtml5, TbBrandCss3 } from "react-icons/tb";
+import { BiLogoJava } from "react-icons/bi";
 import { DiJavascript1 } from "react-icons/di";
-import { FiFigma } from "react-icons/fi";
+import { FiFigma, FiGithub } from "react-icons/fi";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-screen ">
+    <div id="skills">
       <h1 className=" bg-gradient-to-r from-orange2 to-orange3 text-3xl xl:text-3xl py-2 font-bold text-transparent bg-clip-text mt-40 text-center mb-16">
         Skills
       </h1>
@@ -36,13 +31,13 @@ const Skills = () => {
           <span className=" text-sm text-slate-300">JavaScript</span>
         </div>
         <div className="hover:text-orange3 duration-300">
-          <TbBrandNextjs />
-          <span className=" text-sm text-slate-300">NextJS</span>
+          <FiGithub />
+          <span className=" text-sm text-slate-300">Github</span>
         </div>
-        <div className="hover:text-orange3 duration-300">
+        {/* <div className="hover:text-orange3 duration-300">
           <BiLogoTailwindCss />
           <span className=" text-sm text-slate-300">Tailwind</span>
-        </div>
+        </div> */}
         <div className="hover:text-orange3 duration-300">
           <FiFigma />
           <span className=" text-sm text-slate-300">Figma</span>
@@ -52,8 +47,3 @@ const Skills = () => {
   );
 };
 export default Skills;
-// check these colours
-// #FB770D
-// #FF9D5C
-// #FFAF7A
-// #F9C779
