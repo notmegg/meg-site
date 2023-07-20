@@ -1,39 +1,40 @@
 "use client";
 import Link from "next/link";
+import logo from "../public/stuff/logo.png";
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import React from "react";
-import { MdOutlineClose } from "react-icons/md";
+import { MdOutlineClose, MdOutlineEmail } from "react-icons/md";
+import {
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+  AiOutlineMenu,
+} from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   const handleNav = () => {
     setNav(!nav);
   };
 
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-slate-800">
-      <div className="w-full h-full mx-auto py-1 flex items-center justify-between">
-        <Link
-          href="/"
-          onClick={() => {
-            window.scrollTo({
-              top: 0,
-              behavior: "smooth",
-            });
-          }}
-        >
+      <div className="w-full h-full mx-auto py-1 flex items-center justify-between px-7">
+        <Link href="/">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.25 }}
+            className=""
           >
-            <h1 className="ml-10 text-lg text-orange-500">LOGO</h1>
+            <Image src={logo} className=" w-16 h-8"></Image>
           </motion.div>
         </Link>
-        
-        <div className="hidden mdl:inline-flex items-center gap-7 mdl:mr-10">
-          <ul className="flex gap-7 text-sm font-light">
+
+        <div className="">
+          <ul className="hidden mdl:inline-flex gap-7 text-sm font-light">
             <Link
               href="/"
               onClick={() => {
@@ -90,30 +91,114 @@ const Navbar = () => {
                 PROJECTS
               </motion.li>
             </Link>
+            <a href="" target="_blank">
+              <motion.button
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.1, delay: 0.3 }}
+                className="px-4 py-2 rounded-md text-orange2 text-sm border border-orange2 hover:bg-orange3 hover:bg-opacity-10 duration-300 cursor-pointer"
+              >
+                RESUME
+              </motion.button>
+            </a>
           </ul>
-          <a href="" target="_blank">
-            <motion.button
-              initial={{ y: -10, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.1, delay: 0.3 }}
-              className="px-4 py-2 rounded-md text-orange2 text-sm border border-orange2 hover:bg-orange3 hover:bg-opacity-10 duration-300 cursor-pointer"
-            >
-              RESUME
-            </motion.button>
-          </a>
+          {/* Hamburger icon */}
+          <div
+            onClick={handleNav}
+            className="mdl:hidden text-2xl text-orange1 cursor-pointer"
+          >
+            <AiOutlineMenu />
+          </div>
         </div>
-        {/* Hamburger icon */}
-        <motion.div
-          onClick={handleNav}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.25 }}
-          className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-orange1 cursor-pointer overflow-hidden group mr-7"
+      </div>
+      {/* Hamburger menu */}
+      <div
+        className={
+          nav
+            ? "mdl:hidden fixed right-0 top-0 w-full h-screen bg-slate-700/60"
+            : ""
+        }
+      >
+        <div
+          className={
+            nav
+              ? "fixed right-0 top-0 w-[80%] sm:w-[70%] md:w-[45%] h-screen bg-slate-800 p-10 ease-in duration-500"
+              : "fixed right-[-100%] top-0 ease-in p-10 duration-500"
+          }
         >
-          <span className="w-full h-[2px] bg-orange1 inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-orange1 inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-orange1 inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
-        </motion.div>
+          <div className="flex justify-between w-full items-center">
+            <Image src={logo} width={85} height={30} />
+            <div
+              onClick={handleNav}
+              className=" text-orange2 text-2xl cursor-pointer"
+            >
+              <MdOutlineClose />
+            </div>
+          </div>
+          <div className="w-full border-b border-orange2/40 my-10">
+            <p className="w-full py-4 text-orange3/50 text-center">
+              Fueled by Choccy Milk :D
+            </p>
+          </div>
+          <div>
+            <ul className="flex flex-col items-center text-orange-200 ">
+              <Link href={"/"}>
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-8 text-base hover:text-orange2"
+                >
+                  HOME
+                </li>
+              </Link>
+              <Link href={"/#skills"}>
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-8 text-base hover:text-orange2"
+                >
+                  SKILLS
+                </li>
+              </Link>
+              <Link href={"/#projects"}>
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-8 pb-12 text-base hover:text-orange2"
+                >
+                  PROJECTS
+                </li>
+              </Link>
+              <a href="" target="_blank">
+                <button className="px-4 py-2 rounded-md text-orange2 text-sm border border-orange2 hover:bg-orange3 hover:bg-opacity-10 duration-300 cursor-pointer">
+                  RESUME
+                </button>
+              </a>
+            </ul>
+            <div className="pt-20">
+              <div className="flex text-xl justify-around items-center text-orange3">
+                <a
+                  className="hover:text-orange2 hover:translate-y-2 transition-all duration-300"
+                  href="mailto:meghanaps.contact@gmail.com"
+                  target="_blank"
+                >
+                  <MdOutlineEmail />
+                </a>
+                <a
+                  className=" hover:text-orange2 hover:translate-y-2 transition-all duration-300"
+                  href="https://www.linkedin.com/in/meghapshetty/"
+                  target="_blank"
+                >
+                  <AiOutlineLinkedin />
+                </a>
+                <a
+                  className=" hover:text-orange2 hover:translate-y-2 transition-all duration-300"
+                  href="https://github.com/notmegg"
+                  target="_blank"
+                >
+                  <AiOutlineGithub />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
