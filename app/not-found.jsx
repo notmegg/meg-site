@@ -17,7 +17,7 @@ export default function NotFound() {
       </h2>
       <Link href="/" target="_blank">
         <button className="px-4 py-2 rounded-md text-orange2 text-base border border-orange2 hover:bg-orange3 hover:bg-opacity-10 duration-300 cursor-pointer">
-          Back to 
+        Purr-haps Try Again?
         </button>
       </Link>
     </div>
