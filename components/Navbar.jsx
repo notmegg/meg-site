@@ -91,7 +91,7 @@ const Navbar = () => {
                 PROJECTS
               </motion.li>
             </Link>
-            <a href="" target="_blank">
+            <Link href="/stuff/resume_web.pdf" target="_blank" download>
               <motion.button
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -100,7 +100,7 @@ const Navbar = () => {
               >
                 RESUME
               </motion.button>
-            </a>
+            </Link>
           </ul>
           {/* Hamburger icon */}
           <div
@@ -166,35 +166,35 @@ const Navbar = () => {
                   PROJECTS
                 </li>
               </Link>
-              <a href="" target="_blank">
+              <Link href="" target="_blank">
                 <button className="px-4 py-2 rounded-md text-orange2 text-sm border border-orange2 hover:bg-orange3 hover:bg-opacity-10 duration-300 cursor-pointer">
                   RESUME
                 </button>
-              </a>
+              </Link>
             </ul>
             <div className="pt-20">
               <div className="flex text-xl justify-around items-center text-orange3">
-                <a
+                <Link
                   className="hover:text-orange2 hover:translate-y-2 transition-all duration-300"
                   href="mailto:meghanaps.contact@gmail.com"
                   target="_blank"
                 >
                   <MdOutlineEmail />
-                </a>
-                <a
+                </Link>
+                <Link
                   className=" hover:text-orange2 hover:translate-y-2 transition-all duration-300"
                   href="https://www.linkedin.com/in/meghapshetty/"
                   target="_blank"
                 >
                   <AiOutlineLinkedin />
-                </a>
-                <a
+                </Link>
+                <Link
                   className=" hover:text-orange2 hover:translate-y-2 transition-all duration-300"
                   href="https://github.com/notmegg"
                   target="_blank"
                 >
                   <AiOutlineGithub />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

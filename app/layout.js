@@ -5,7 +5,7 @@ const monts = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'MEGsite',
-  description: 'Created with the power of cats',
+  description: 'Created with meow-gic :3',
 }
 
 export default function RootLayout({ children }) {

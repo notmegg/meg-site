@@ -2,6 +2,8 @@ import Image from "next/image";
 import thelist from "../public/projects/thelist.jpeg";
 import fyi from "../public/projects/fyi.jpg";
 import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
+import Link from "next/link";
+
 
 const Projects = () => {
   return (
@@ -37,18 +39,18 @@ const Projects = () => {
                 <li className="hover:text-orange3 duration-300">Netlify</li>
               </ul>
               <div className="text-2xl flex gap-4 text-orange-200">
-                <a
+                <Link
                   href="https://github.com/notmegg/The-list"
                   className="hover:text-orange2 duration-300 hover:translate-y-2 transition-all"
                 >
                   <AiOutlineGithub />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="https://the-list-app.netlify.app/"
                   className="hover:text-orange2 duration-300 hover:translate-y-2 transition-all"
                 >
                   <AiOutlineLink />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -80,12 +82,12 @@ const Projects = () => {
                 <li className="hover:text-orange3 duration-300">Firestore</li>
               </ul>
               <div className="text-2xl flex gap-4 text-orange-200">
-                <a
+                <Link
                   href="https://github.com/AGJ-web/FYI"
                   className="hover:text-orange2 duration-300 hover:translate-y-2 transition-all"
                 >
                   <AiOutlineGithub />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

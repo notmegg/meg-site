@@ -34,10 +34,6 @@ const Skills = () => {
           <FiGithub />
           <span className=" text-sm text-slate-300">Github</span>
         </div>
-        {/* <div className="hover:text-orange3 duration-300">
-          <BiLogoTailwindCss />
-          <span className=" text-sm text-slate-300">Tailwind</span>
-        </div> */}
         <div className="hover:text-orange3 duration-300">
           <FiFigma />
           <span className=" text-sm text-slate-300">Figma</span>

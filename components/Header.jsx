@@ -4,6 +4,8 @@ import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import Image from "next/image";
 import meg_pic from "../public/stuff/meg_pic.jpg";
 import { motion } from "framer-motion";
+import Link from "next/link";
+
 
 const Header = () => {
   return (
@@ -53,27 +55,27 @@ const Header = () => {
           transition={{ duration: 0.1, delay: 0.6 }}
           className=" text-2xl flex justify-center xl:justify-start gap-14 xl:pl-20 xl:gap-24 text-orange-200 mt-10"
         >
-          <a
+          <Link
             className=" w-12 h-9 rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300"
             href="mailto:meghanaps.contact@gmail.com"
             target="_blank"
           >
             <MdOutlineEmail />
-          </a>
-          <a
+          </Link>
+          <Link
             className=" w-12 h-9 rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300"
             href="https://www.linkedin.com/in/meghapshetty/"
             target="_blank"
           >
             <AiOutlineLinkedin />
-          </a>
-          <a
+          </Link>
+          <Link
             className=" w-12 h-9 rounded-full hover:text-orange2 hover:translate-y-2 transition-all duration-300"
             href="https://github.com/notmegg"
             target="_blank"
           >
             <AiOutlineGithub />
-          </a>
+          </Link>
         </motion.div>
       </div>
 
