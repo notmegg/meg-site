@@ -36,7 +36,7 @@ const Header = () => {
           transition={{ duration: 0.1, delay: 0.4 }}
           className=" text-2xl xl:text-3xl py-2 text-orange3"
         >
-          Blah blah
+          Developer and occational cat lover
         </motion.h3>
         <motion.p
           initial={{ y: -10, opacity: 0 }}

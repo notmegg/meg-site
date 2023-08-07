@@ -69,7 +69,7 @@ const Projects = () => {
               <h1 className="text-2xl font-bold text-white">FYI.</h1>
               <p className=" bg-slate-500 bg-opacity-50 text-sm md:text-base p-2 md:p-6 rounded-md text-gray-300 tracking-wide">
                 Plan. Organize. Coordinate. <br/>
-                Managing college life and making the best out of it is lost on many college students. Resources, although abundant, still need to be handpicked. A student companion app is just another messaging app that does not really filter necessary content that the student wants to see. Our app streamlines content by gauging the student's inferior capabilities and surveying their interests. It allows the user to look at content relevant to them in various fields, which is and will be taking place in the academia.
+                Managing college life and making the best out of it is lost on many college students. Resources, although abundant, still need to be handpicked. This app streamlines content by gauging the student's inferior capabilities and surveying their interests. It allows the user to look at content relevant to them in various fields, which is and will be taking place in the academia.
               </p>
               <ul className="text-sm md:text-base tracking-wide flex gap-2 md:gap-7 justify-between text-orange2 ">
                 <li className="hover:text-orange3 duration-300">Flutter</li>

@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-slate-800">
-      <div className="w-full h-full mx-auto py-1 flex items-center justify-between px-7">
+      <div className="w-full h-full mx-auto py-2 flex items-center justify-between px-7">
         <Link href="/">
           <motion.div
             initial={{ opacity: 0 }}
@@ -29,7 +29,8 @@ const Navbar = () => {
             transition={{ duration: 0.25 }}
             className=""
           >
-            <Image src={logo} className=" w-16 h-8"></Image>
+            <h2 className=" text-lg font-semibold text-orange1 ">M E G</h2>
+            {/* <Image src={logo} className=" w-16 h-8"></Image> */}
           </motion.div>
         </Link>
 
@@ -91,7 +92,7 @@ const Navbar = () => {
                 PROJECTS
               </motion.li>
             </Link>
-            <Link href="/stuff/resume_web.pdf" target="_blank" download>
+            <Link href="/stuff/resume_web.pdf" target="_blank">
               <motion.button
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
