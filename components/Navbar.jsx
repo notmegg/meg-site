@@ -29,7 +29,7 @@ const Navbar = () => {
             transition={{ duration: 0.25 }}
             className=""
           >
-            <h2 className=" text-lg font-semibold text-orange1 ">M E G</h2>
+            <h2 className=" text-lg font-semibold text-orange1 mdl:pl-2">M E G H A N A</h2>
             {/* <Image src={logo} className=" w-16 h-8"></Image> */}
           </motion.div>
         </Link>

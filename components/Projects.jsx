@@ -31,7 +31,7 @@ const Projects = () => {
                 The Movies and TV Series Cataloging Application is a comprehensive website designed to cater to the needs of movie and TV enthusiasts. Its primary purpose is to offer users a user-friendly platform for organizing and managing their favorite movies and TV shows in a list-like system. The List provides users with an efficient and enjoyable way to organize and discover their favorite entertainment content.
               </p>
               <ul className="text-sm md:text-base tracking-wide flex gap-2 md:gap-7 justify-between text-orange2">
-                <li className="hover:text-orange3 duration-300">ReactJs</li>
+                <li className="hover:text-orange3 duration-300">ReactJS</li>
                 <li className="hover:text-orange3 duration-300">Firebase</li>
                 <li className="hover:text-orange3 duration-300">Netlify</li>
               </ul>

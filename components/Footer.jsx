@@ -2,7 +2,7 @@ import Link from "next/link";
 import { MdOutlineEmail } from "react-icons/md";
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 
-const Contact = () => {
+const Footer = () => {
   return (
     <div id="contact" className="w-full h-full shadow-contactShadow">
       <div className="p-7 mdl:px-20 mdl:py-10 flex justify-between">
@@ -40,4 +40,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Footer;
