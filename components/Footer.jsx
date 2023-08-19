@@ -7,7 +7,7 @@ const Footer = () => {
     <div id="contact" className="w-full h-full shadow-contactShadow">
       <div className="p-7 mdl:px-20 mdl:py-10 flex justify-between">
         <div className=" flex flex-col gap-2">
-          <h1 className=" text-orange1 text-lg mdl:text-xl font-semibold">M E G H A N A</h1>
+          <h1 className=" text-orange1 text-lg mdl:text-xl font-semibold">M E G H A N A 🐱</h1>
           <h1 className=" text-orange3 text-xs mdl:text-sm font-light">Fueled by Choccy Milk :D <br /></h1>
         </div>
         <div className=" items-center justify-center align-middle">

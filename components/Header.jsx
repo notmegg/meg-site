@@ -30,24 +30,22 @@ const Header = () => {
         >
           I'm Meghana
         </motion.h1>
-        <motion.h3
+        {/* <motion.h3
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.1, delay: 0.4 }}
-          className=" text-2xl xl:text-3xl py-2 text-orange3"
+          className=" text-xl xl:text-2xl py-2 text-orange3"
         >
-          Developer and occational cat lover
-        </motion.h3>
+          Cat - friendly developer
+        </motion.h3> */}
         <motion.p
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.1, delay: 0.5 }}
           className=" text-base xl:text-lg leading-8 text-gray-300 mt-2"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          ipsa, qui nostrum id provident recusandae quisquam? Aliquid
-          perferendis labore, consequatur quam nihil praesentium aliquam. Illum
-          dignissimos repellendus asperiores eum magni.
+           I am someone who has explored and worked with various fields, and my current interests
+            revolve around machine learning and web development. I find the world of coding as fascinating as my love for cats. 
         </motion.p>
         <motion.div
           initial={{ y: -10, opacity: 0 }}
