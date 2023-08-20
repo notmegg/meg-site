@@ -1,5 +1,5 @@
 import { TbBrandPython, TbBrandHtml5, TbBrandCss3 } from "react-icons/tb";
-import { BiLogoJava } from "react-icons/bi";
+import { BiLogoJava,BiLogoTailwindCss } from "react-icons/bi";
 import { DiJavascript1 } from "react-icons/di";
 import { FiFigma, FiGithub } from "react-icons/fi";
 
@@ -37,6 +37,10 @@ const Skills = () => {
         <div className="hover:text-orange3 duration-300">
           <FiFigma />
           <span className=" text-sm text-slate-300">Figma</span>
+        </div>
+        <div className="hover:text-orange3 duration-300">
+          <BiLogoTailwindCss />
+          <span className=" text-sm text-slate-300">Tailwind</span>
         </div>
       </div>
     </div>

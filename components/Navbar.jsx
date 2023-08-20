@@ -137,7 +137,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="w-full border-b border-orange2/40 my-10">
-            <p className="w-full py-4 text-orange3/50 text-center">
+            <p className="w-full py-4 text-orange3/50 text-center text-sm">
               Fueled by Choccy Milk :D
             </p>
           </div>

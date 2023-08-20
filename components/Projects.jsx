@@ -7,7 +7,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section id="projects" className=" w-full lgl:px-20">
-      <h1 className=" bg-gradient-to-r from-orange2 to-orange3 text-3xl xl:text-3xl py-2 font-bold text-transparent bg-clip-text mt-40 text-center mdl:mb-20">
+      <h1 className=" bg-gradient-to-r from-orange2 to-orange3 text-2xl xl:text-3xl py-2 font-bold text-transparent bg-clip-text mt-40 text-center mdl:mb-20">
         Projects I've worked on
       </h1>
       <div className="w-full flex flex-col items-center justify-between gap-16 xl:gap-28  pb-20">
