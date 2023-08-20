@@ -1,1 +1,1 @@
-Portfolio website made with NextJS WIP
+Portfolio website made with NextJS and TailwindCSS

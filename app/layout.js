@@ -4,7 +4,7 @@ import {Montserrat,Roboto_Mono} from 'next/font/google'
 const monts = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'MEGsite',
+  title: 'megSpace',
   description: 'Created with meow-gic ^^',
 }
 
