@@ -13,7 +13,7 @@ const Header = () => {
       id="header"
       className="flex flex-col mt-20  xl:mt-28 xl:flex-row w-full h-full"
     >
-      <div className=" w-full text-center px-10 xl:w-1/2 xl:text-left xl:pl-28 text-white">
+      <div className=" w-full text-center px-10 xl:w-1/2 xl:text-left xl:tracking-wide xl:pl-28 text-white">
         <motion.h3
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -44,8 +44,8 @@ const Header = () => {
           transition={{ duration: 0.1, delay: 0.5 }}
           className=" text-base xl:text-lg leading-8 text-gray-300 mt-2"
         >
-           I am someone who has explored and worked with various fields, and my current interests
-            revolve around machine learning and web development. I find the world of coding as fascinating as my love for cats. 
+           I am an aspiring developer and my current interests
+            revolve around machine learning and web development. I find the world of coding as fascinating as my love for cats. I'm on a journey of exploring the world of the web and connecting with like-minded people. Whether you're up for making a connection or simply keen on talking about cats, feel free to reach out!
         </motion.p>
         <motion.div
           initial={{ y: -10, opacity: 0 }}

@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" w-full text-center font-medium bg-gradient-to-br from-orange-400 to-orange3 leading-7 xl:leading-8 text-transparent bg-clip-text px-10 xl:px-40 text-lg xl:text-xl mt-36"
+      className=" w-full text-center font-medium bg-gradient-to-br from-orange-400 to-orange3 leading-7 xl:leading-8 text-transparent bg-clip-text px-10 xl:px-40 text-lg mt-36"
     >
       <p>
       Hi, I'm Meghana, and I'm currently pursuing a degree in Computer Science at REVA University. Ever since I got into computers, I've had the opportunity to explore a wide range of domains and have tried my best to embrace each one. While I do have my preferences, I make sure that I have a positive attitude while I make my way through uncharted waters. I find it fun to learn and adapt to new concepts and add my two cents whenever possible.
