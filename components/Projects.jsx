@@ -39,12 +39,14 @@ const Projects = () => {
                 <Link
                   href="https://github.com/notmegg/The-list"
                   className="hover:text-orange2 duration-300 hover:translate-y-2 transition-all"
+                  target="_blank"
                 >
                   <AiOutlineGithub />
                 </Link>
                 <Link
                   href="https://the-list-app.netlify.app/"
                   className="hover:text-orange2 duration-300 hover:translate-y-2 transition-all"
+                  target="_blank"
                 >
                   <AiOutlineLink />
                 </Link>
@@ -80,6 +82,7 @@ const Projects = () => {
                 <Link
                   href="https://github.com/AGJ-web/FYI"
                   className="hover:text-orange2 duration-300 hover:translate-y-2 transition-all"
+                  target="_blank"
                 >
                   <AiOutlineGithub />
                 </Link>

@@ -1,11 +1,11 @@
 import './globals.css'
-import {Montserrat,Roboto_Mono} from 'next/font/google'
+import {Montserrat} from 'next/font/google'
 
 const monts = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'megSpace',
-  description: 'Created with meow-gic ^^',
+  description: 'Made with meow-gic ^^',
 }
 
 export default function RootLayout({ children }) {
