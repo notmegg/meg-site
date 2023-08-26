@@ -30,14 +30,6 @@ const Header = () => {
         >
           I'm Meghana
         </motion.h1>
-        {/* <motion.h3
-          initial={{ y: -10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.1, delay: 0.4 }}
-          className=" text-xl xl:text-2xl py-2 text-orange3"
-        >
-          Cat - friendly developer
-        </motion.h3> */}
         <motion.p
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
