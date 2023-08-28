@@ -128,7 +128,7 @@ const Navbar = () => {
           }
         >
           <div className="flex justify-between w-full items-center">
-            <Image src={logo} width={85} height={30} />
+            <Image src={logo} width={85} height={30} alt="logo"/>
             <div
               onClick={handleNav}
               className=" text-orange2 text-2xl cursor-pointer"
