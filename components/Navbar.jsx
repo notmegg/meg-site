@@ -29,7 +29,9 @@ const Navbar = () => {
             transition={{ duration: 0.25 }}
             className="flex gap-3"
           >
-            <h2 className=" text-lg font-semibold text-orange1 mdl:pl-2">M E G H A N A</h2>
+            <h2 className=" text-lg font-semibold text-orange1 mdl:pl-2">
+              M E G H A N A
+            </h2>
             {/* <Image src={logo} className=" w-5 h-5"></Image> */}
           </motion.div>
         </Link>
@@ -128,7 +130,12 @@ const Navbar = () => {
           }
         >
           <div className="flex justify-between w-full items-center">
-            <Image src={logo} width={85} height={30} alt="logo"/>
+            <div>
+              <h2 className=" text-lg font-semibold text-orange1 mdl:pl-2">
+                M E G H A N A
+              </h2>
+            </div>
+            {/* <Image src={logo} width={85} height={30} alt="logo"/> */}
             <div
               onClick={handleNav}
               className=" text-orange2 text-2xl cursor-pointer"
