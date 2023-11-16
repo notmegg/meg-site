@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <div
       id="header"
-      className="flex flex-col mt-20  xl:mt-28 xl:flex-row w-full h-full"
+      className="flex flex-col mt-20 px-40 xl:mt-28 xl:flex-row w-full h-full"
     >
-      <div className=" w-full text-center px-10 xl:w-1/2 xl:text-left xl:tracking-wide xl:pl-28 text-white">
+      <div className=" w-full text-center xl:w-1/2 xl:text-left xl:tracking-wide text-white">
         <motion.h3
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

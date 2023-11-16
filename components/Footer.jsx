@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="p-7 mdl:px-20 mdl:py-10 flex justify-between">
         <div className=" align-middle my-5">
           <h1 className=" text-orange1 text-lg mdl:text-xl font-semibold">
-            M E G H A N A
+            M E G S P A C E
           </h1>
           {/* <h1 className=" text-orange3 text-xs mdl:text-sm font-light">Fueled by Choccy Milk :D <br /></h1> */}
         </div>

@@ -132,7 +132,7 @@ const Navbar = () => {
           <div className="flex justify-between w-full items-center">
             <div>
               <h2 className=" text-lg font-semibold text-orange1 mdl:pl-2">
-                M E G H A N A
+                M E G S P A C E
               </h2>
             </div>
             {/* <Image src={logo} width={85} height={30} alt="logo"/> */}
