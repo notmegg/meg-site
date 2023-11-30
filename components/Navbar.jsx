@@ -94,7 +94,7 @@ const Navbar = () => {
                 PROJECTS
               </motion.li>
             </Link>
-            <Link href="/stuff/resume_web.pdf" target="_blank">
+            <Link href="/stuff/resumeNov23.pdf" target="_blank">
               <motion.button
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
