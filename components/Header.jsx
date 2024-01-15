@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <div
       id="header"
-      className="flex flex-col mt-20  xl:mt-28 xl:flex-row w-full h-full"
+      className="flex flex-col mt-20 px-40 xl:mt-28 xl:flex-row w-full h-full"
     >
-      <div className=" w-full text-center px-10 xl:w-1/2 xl:text-left xl:tracking-wide xl:pl-28 text-white">
+      <div className=" w-full text-center xl:w-1/2 xl:text-left xl:tracking-wide text-white">
         <motion.h3
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -37,7 +37,7 @@ const Header = () => {
           className=" text-base xl:text-lg leading-8 text-gray-300 mt-2"
         >
            I am an aspiring developer and my current interests
-            revolve around machine learning and web development. I find the world of coding as fascinating as my love for cats. I'm on a journey of exploring the world of the web and connecting with like-minded people. Whether you're up for making a connection or simply keen on talking about cats, feel free to reach out!
+            revolve around machine learning and web development. I find the world of coding as fascinating as my love for cats. I'm on a journey of exploring the world of the web and connecting with like-minded people. Whether you're up for making a connection or if you simply want to discuss mutual interests, feel free to reach out!
         </motion.p>
         <motion.div
           initial={{ y: -10, opacity: 0 }}
@@ -73,8 +73,10 @@ const Header = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.1, delay: 0.7 }}className=" xl:w-1/2 flex justify-center ">
         <Image
-          className=" h-80 w-80 rounded-2xl xl:rounded-full xl:h-80 xl:w-80 border-4 xl:border-8 border-orange-400 xl:ml-32 xl:mt-10 mt-16"
+          className=" rounded-xl xl:rounded-full xl:h-80 xl:w-80 border-4 xl:border-8 border-orange-400 xl:ml-32 xl:mt-10 mt-16"
           src={meg_pic}
+          height={300}
+          width={300}
         />
       </motion.div>
     </div>

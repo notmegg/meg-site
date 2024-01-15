@@ -10,14 +10,14 @@ export default function NotFound() {
         404
       </h1>
       <h1 className=" text-3xl xl:text-4xl py-2 text-orange3">
-        Oopsie! Cat got your page?
+        Cat got your page?
       </h1>
       <h2 className=" text-lg xl:text-xl leading-8 text-gray-300 my-4">
         It doesn't exist :(
       </h2>
-      <Link href="/" target="_blank">
+      <Link href="/" target="">
         <button className="px-4 py-2 rounded-md text-orange2 text-base border border-orange2 hover:bg-orange3 hover:bg-opacity-10 duration-300 cursor-pointer">
-        Purr-haps Try Again?
+        Try Again?
         </button>
       </Link>
     </div>
