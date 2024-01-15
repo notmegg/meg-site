@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div
       id="header"
-      className="flex flex-col mt-20 px-20 xl:mt-28 xl:flex-row w-full h-full"
+      className="flex flex-col mt-20 px-20 xl:px-44 xl:mt-28 xl:flex-row w-full h-full"
     >
       <div className=" w-full text-center xl:w-1/2 xl:text-left xl:tracking-wide text-white">
         <motion.h3
