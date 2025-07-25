@@ -150,7 +150,12 @@ const Navbar = () => {
           </div>
           <div>
             <ul className="flex flex-col items-center text-orange-200 ">
-              <Link href={"/"}>
+              <Link href={"/"} scroll={true} onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-8 text-base hover:text-orange2"
@@ -158,7 +163,13 @@ const Navbar = () => {
                   HOME
                 </li>
               </Link>
-              <Link href={"/#skills"}>
+              <Link href={"/#skills"} scroll={true} 
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document
+                          .getElementById("skills")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-8 text-base hover:text-orange2"
@@ -166,7 +177,13 @@ const Navbar = () => {
                   SKILLS
                 </li>
               </Link>
-              <Link href={"/#projects"}>
+              <Link href={"/#projects"} scroll={true} 
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document
+                          .getElementById("projects")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-8 pb-12 text-base hover:text-orange2"
